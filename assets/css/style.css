@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Great+Vibes&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --bg-white-one: #f2f2fc;
+    --bg-white-two: #fdf9ff;
+    --bg-white-tree: #e8dfec;
+
+    --text-black-one: #302e4d;
+    --text-black-two: #504e70;
+
+}
+
+body{
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Poppins' sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}

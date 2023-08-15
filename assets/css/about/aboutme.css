@@ -1,0 +1,277 @@
+/* esta clase es del section */
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.section-title h2{
+    font-size: 40px;
+    color: var(--text-black-two);
+    font-weight: 700;
+    position: relative;
+}
+
+/* son las 2 lineas rojas del aboutme */
+.section-title h2::before{
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: var(--skin-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.section-title h2::after{
+    content: '';
+    height: 4px;
+    width: 30px;
+    background-color: var(--skin-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+}
+
+/* About */
+.about .about-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--text-black-one);
+}
+
+/* .about .about-content .about-text h3 .resaltar{
+    color: var(--skin-color);
+} */
+/*el fragmento de arriba es lo mismo*/
+.resaltar{
+    color: var(--skin-color);
+}
+/*--------------------------------------------------------------------*/
+.about .about-content .about-text .text{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-two);
+}
+/* este codigo es el mismo que el de arriba
+.text{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-two);
+}*/
+/*--------------------------------------------------------------------*/
+/* .about .about-content .personal-info{
+    flex: 0 0 50%;
+    max-width: 50%;
+    background-color: aquamarine;
+    margin-top: 40px;
+} */
+.personal-info{
+    flex: 0 0 70%;
+    max-width: 70%;
+    margin-top: 40px;
+}
+/*--------------------------------------------------------------------*/
+.about .about-content .personal-info .info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+/* .info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+} */
+
+/*--------------------------------------------------------------------*/
+/*la etiqueta p no tiene clase pero si la tuviera solo se pone la clase y el contenido es el mismo*/
+.about .about-content .personal-info .info-item p{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--text-black-two);
+    border-bottom: 1px solid var(--bg-white-tree);
+}
+/*--------------------------------------------------------------------*/
+/*la etiqueta span no tiene clase pero si la tuviera solo se pone la clase y el contenido es el mismo*/
+.about .about-content .personal-info .info-item p span{
+    font-weight: 400;
+    color: var(--text-black-two);
+    margin-left: 4px;
+    display: inline-block;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .buttoms y el contenido es el mismo*/
+.about .about-content .personal-info .buttons{
+    margin-top: 30px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .btn y el contenido es el mismo, aplica para los 2 botones*/
+.about .about-content .personal-info .buttons .btn{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+/*--------------------------------------------------------------------*/
+/* .about .about-content .skills{
+    flex: 0 0 40%;
+    max-width: 40%;
+    background-color: bisque;
+    margin-top: 40px;
+}  */
+.skills{
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-top: 40px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .skill-item y el contenido es el mismo*/
+.about .about-content .skills .skill-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .skill-item h5 y el contenido es el mismo*/
+.about .about-content .skills .skill-item h5{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-two);
+    text-transform: capitalize;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .education,.experience y el contenido es el mismo*/
+.about .about-content .education,
+.about .about-content .experience{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .title y el contenido es el mismo*/
+.about .about-content h3.title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-two);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-bpx y el contenido es el mismo*/
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-bpx y el contenido es el mismo*/
+.about .about-content .timeline{
+    background-color: var(--bg-white-two);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-white-tree);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-item y el contenido es el mismo*/
+.about .about-content .timeline .timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-item:last-child y el contenido es el mismo*/
+.about .about-content .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-item::before y el contenido es el mismo, linea vertical roja*/
+.about .about-content .timeline .timeline-item::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--skin-color);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .circle-dot y el contenido es el mismo, para el circulo rojo*/
+.about .about-content .timeline .circle-dot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-date y el contenido es el mismo*/
+.about .about-content .timeline .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-two);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .fa y el contenido es el mismo*/
+.about .about-content .timeline .timeline-date .fa{
+    margin-right: 5px;
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-title y el contenido es el mismo*/
+.about .about-content .timeline .timeline-title{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-one);
+}
+/*--------------------------------------------------------------------*/
+/*o solo .timeline-text y el contenido es el mismo*/
+.about .about-content .timeline .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-two);
+}
+
+/*====== responsive aboutme ======*/
+@media (max-width: 1199px){
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+}
+
+/* @media (max-width:991px){
+    .about .about-content .education,
+    .about .about-content .experience {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} */
+
+@media (max-width:767px){
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
